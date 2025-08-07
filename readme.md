@@ -3,12 +3,9 @@
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="images/CoinListFragment.png" width="80%">
+  <img src="images/CoinListFragment.png" width="48%">
+  <img src="images/CoinDetailFragment.png" width="48%">
 </p>
-<p align="center">
-  <img src="images/CoinDetailFragment.png" width="80%">
-</p>
-
 
 ## 📄 Project Overview
 
