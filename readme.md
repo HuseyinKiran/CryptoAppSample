@@ -2,10 +2,11 @@
 
 ## 📸 Screenshots
 
-<p float="left">
-  <img src="images/CoinListFragment.png" width="47%" style="margin-right: 2%;" />
-  <img src="images/CoinDetailFragment.png" width="47%" style="margin-right: 2%;" />
-</p>
+<div style="text-align: center;">
+  <img src="images/CoinListFragment.png" width="47%" height="800px" style="margin-right: 2%;" />
+  <img src="images/CoinDetailFragment.png" width="47%" height="800px" />
+</div>
+
 
 ## 📄 Project Overview
 
