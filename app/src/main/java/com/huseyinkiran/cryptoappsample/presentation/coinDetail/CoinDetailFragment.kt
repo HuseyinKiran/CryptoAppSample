@@ -3,7 +3,7 @@ package com.huseyinkiran.cryptoappsample.presentation.coinDetail
 import android.graphics.Color
 import android.os.Bundle
 import android.view.View
-import androidx.core.view.isGone
+import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
@@ -77,10 +77,11 @@ class CoinDetailFragment : Fragment(R.layout.fragment_coin_detail) {
                         if (coin.isActive == true) Color.GREEN else Color.RED
                     )
 
-                    tagAdapter.submitList(coin.tags)
+                    coin.tags?.let { tagAdapter.submitList(it) }
                     teamAdapter.submitList(coin.team)
 
-                    if (coin.team.isEmpty()) teamMembersLayout.isGone = true
+                    if (coin.team.isNotEmpty()) labelMembers.isVisible = true
+                    if(!coin.tags.isNullOrEmpty()) labelTags.isVisible = true
                 }
             }
         }

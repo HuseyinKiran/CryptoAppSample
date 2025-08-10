@@ -117,6 +117,7 @@
                     android:gravity="center"
                     android:textColor="@color/white"
                     android:textSize="@dimen/txtIsActive_size"
+                    android:layout_marginStart="8dp"
                     android:textStyle="italic" />
 
             </LinearLayout>
@@ -168,6 +169,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/general_margin"
                     android:text="Tags"
+                    android:visibility="gone"
                     android:textColor="@color/white"
                     android:textSize="@dimen/labels_textSize"
                     android:textStyle="bold" />
@@ -194,6 +196,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/general_margin"
                     android:text="Team members"
+                    android:visibility="gone"
                     android:textColor="@color/white"
                     android:textSize="@dimen/labels_textSize"
                     android:textStyle="bold" />
